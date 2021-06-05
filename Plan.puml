@@ -1,0 +1,21 @@
+@startuml TeamMaryland
+
+abstract class Person {
+    #name: String
+    #email:String
+    #password: String
+
+}
+
+Person <|-- Bishop
+Person <|-- Counselor1
+Person <|-- Counselor2
+Person <|-- Clerck
+Person <|-- members
+
+
+
+@enduml
+
+
+
